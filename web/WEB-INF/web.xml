@@ -7,4 +7,8 @@
         <servlet-name>FirstServlet</servlet-name>
         <servlet-class>edu.wctc.my.kgable.first.FirstServlet</servlet-class>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>FirstServlet</servlet-name>
+        <url-pattern>/first</url-pattern>
+    </servlet-mapping>
 </web-app>
