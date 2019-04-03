@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="derby">
+    <CLASSES>
+      <root url="jar://C:/Program Files (x86)/Java/java_ee_sdk-8/glassfish5/javadb/lib/derby.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Java/java_ee_sdk-8/glassfish5/javadb/lib/derbyclient.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Java/java_ee_sdk-8/glassfish5/javadb/lib/derbynet.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Java/java_ee_sdk-8/glassfish5/javadb/lib/derbyoptionaltools.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Java/java_ee_sdk-8/glassfish5/javadb/lib/derbyrun.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Java/java_ee_sdk-8/glassfish5/javadb/lib/derbytools.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
