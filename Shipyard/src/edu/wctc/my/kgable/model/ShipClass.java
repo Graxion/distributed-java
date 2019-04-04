@@ -1,0 +1,6 @@
+package edu.wctc.my.kgable.model;
+
+public enum ShipClass
+{
+	FIGHTER, GUNSHIP, CORVETTE, DESTROYER, LIGHT_CRUISER, HEAVY_CRUISER, BATTLESHIP, DREADNOUGHT
+}
