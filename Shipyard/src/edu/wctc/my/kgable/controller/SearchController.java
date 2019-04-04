@@ -28,9 +28,19 @@ public class SearchController extends HttpServlet
 		{
 			shipModel = catalog.get(i);
 
-			if (shipModel.getName().toLowerCase().contains(request.getParameter("search").toLowerCase()))
+			if (request.getParameter("column").equals("name"))
 			{
-				result.add(shipModel);
+				if (shipModel.getName().toLowerCase().contains(request.getParameter("search").toLowerCase()))
+				{
+					result.add(shipModel);
+				}
+			}
+			else if (request.getParameter("column").equals("class"))
+			{
+				if (shipModel.getShipClass().toString().toLowerCase().contains(request.getParameter("search").toLowerCase()))
+				{
+					result.add(shipModel);
+				}
 			}
 		}
 

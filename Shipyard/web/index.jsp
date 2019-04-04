@@ -26,6 +26,8 @@
 			<main>
 				<form action="search.go">
 					<input type="text" name="search">
+					<label><input type="radio" name="column" value="name">Name</label>
+					<label><input type="radio" name="column" value="class">Class</label>
 					<input type="submit" value="Search">
 				</form>
 			</main>
